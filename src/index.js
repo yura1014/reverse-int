@@ -6,7 +6,7 @@ module.exports = function reverse (n) {
   } else {
     arr.splice(0, 1);
     arr.reverse();
-    arr.splice(0, 0, "-");
+
     return Number(arr.join(""));
   }
 }
